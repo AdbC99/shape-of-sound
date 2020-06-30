@@ -19,7 +19,7 @@ const ImageGrid = (props) => {
 
                                     if (col.type === 'rectangle')
                                     {
-                                        md = 12;
+                                        md = { span: 12, order:'last'};
                                         lg = 6;
                                     }
 

@@ -1,16 +1,23 @@
 import React from 'react';
 import SoundImageGrid from './components/container/SoundImageGrid';
+import {Navbar, Nav} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-    const data = [];
-
     return (
-        <div className="App">
-            <SoundImageGrid/>
-        </div>
+        <>
+            <Navbar className="justify-content-end">
+                <Nav>
+                    <Nav.Item>
+                        <Nav.Link href="/">UNDER CONSTRUCTION</Nav.Link>
+                    </Nav.Item>
+                </Nav>
+            </Navbar>
+            <div className="App">
+                <SoundImageGrid/>
+            </div>
+        </>
     );
 }
 
